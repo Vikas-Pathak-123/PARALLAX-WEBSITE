@@ -1,3 +1,1 @@
-# tarakeshw
-# learning git basic commands
-#
+# PARALLAX WEBSITE
