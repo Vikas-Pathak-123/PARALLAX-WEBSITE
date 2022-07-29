@@ -1,13 +1,24 @@
 
 .pimg1{
    
-   height: auto;
-   text-align:center;
-   padding: 200px;
-   image-resolution: 10%;
-      
-   background: url("img/img\ \(15\).jpg");
-   background-size: 100% 100%; 
+    height: auto;
+    text-align:center;
+    padding: 200px;
+    image-resolution: 10%;
+
+    background: url("img/img\ \(8\).jpg");
+    background-size: 100% 100%; 
+        /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .pimg2{
@@ -17,8 +28,21 @@
     padding: 200px;
     image-resolution: 10%;
        
-    background: url("img/img\ \(9\).jpg");
+    background: url("img/img1.jpg");
     background-size: 100% 100%;
+     /* Full height */
+     height: 100%; 
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ 
+     
    
     
  
@@ -32,6 +56,18 @@
        
     background: url("img/img\ \(16\).jpg");
     background-size: 100% 100%;
+     /* Full height */
+     height: 100%; 
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ 
    
     
  
@@ -54,33 +90,80 @@
         
     }
  
+    #section-1{
+        background-color: rgb(249, 249, 255);
+        color: rgb(63, 62, 62);
+        height: auto;
+        margin: auto;
+        font-size: 25px;
+        padding: 30px;
+        
+    }
+    #section-dark{
+        background-color: rgb(6, 19, 29);
+        color: rgb(162, 156, 156);
+        height: auto;
+        margin: auto;
+        font-size: 25px;
+        padding: 30px;
+    }
 
-
-
-
-#section-1{
-    background-color: ghostwhite;
-    color: grey;
-    height: auto;
-    margin: auto;
-    font-size: 25px;
-    padding: 20px;
-}
-#section-dark{
-    background-color: rgb(6, 19, 29);
-    color: rgb(162, 156, 156);
-    height: auto;
-    margin: auto;
-    font-size: 25px;
-    padding: 20px;
-}
-/* h2{
-    font-size: 35px;
-    color: gray;
-    background-color: ghostwhite;
-    padding: 10px;
-} */
 body{
-    text-align: center;
-  
+   text-align: center;
+   height: 50%;
+  }
+
+.container{    
+    height: auto;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+/* ======================================== */
+
+
+#upper{
+    height: auto;
+    text-align:center;
+    padding: 200px;
+    background: url("img/img\ \(12\).jpg");
+    
+        /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#upper1{
+    height: auto;
+    text-align:center;
+    padding: 200px;
+    background: url("img/img\ \(16\).jpg");
+    background-size: 100% 100%; 
+        /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upper-text{
+    border: none;
+    background-color: rgb(50, 58, 58);
+    color: rgb(248, 247, 245);
+    font-size: 45px;
+    text-align:center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    align-items: center;
 }
